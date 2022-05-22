@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <script>
     var csrfToken = '697209108f9bdde2b340ae2a9066a1a17bca746a',
-        markdownGuide = 'Markdown Guide',
+        markdownGuide = 'Markdown Guide',	
         locale = 'en',
         saved = 'saved',
         saving = 'autosaving',
@@ -825,7 +825,7 @@
     <script type="text/javascript">
 $(document).ready(function(){
     var MenuItems = $("li.manu-manager-javascript-link a");
-    $("li.manu-manager-javascript-link a").each(function(index, value){
+    $("li.manu-manager-javascript-link a").each(function(index, value){	
         var linkHref = $(this).prop('href');
         var splitted = linkHref.split('javascript:');
         $(this).prop('href', "javascript:" + splitted[1]);
